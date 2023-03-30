@@ -1,6 +1,6 @@
 import {AiOutlineHome} from 'react-icons/ai';
-import {MdOutlinePodcasts, MdLiveTv, MdOutlineSportsSoccer, MdTheaterComedy } from 'react-icons/md';
-import { BiCode, BiMoviePlay, BiBitcoin } from 'react-icons/bi';
+import {MdOutlinePodcasts, MdLiveTv, MdOutlineSportsSoccer, MdTheaterComedy, MdOutlineWatchLater } from 'react-icons/md';
+import { BiCode, BiMoviePlay, BiBitcoin, BiTrendingUp } from 'react-icons/bi';
 import {BsMusicNoteList} from 'react-icons/bs';
 import { IoIosSchool } from 'react-icons/io';
 import { CgGym } from 'react-icons/cg';
@@ -11,6 +11,8 @@ import {GiGamepad} from 'react-icons/gi'
 
 export const categories = [
   { name: 'Home', icon: <AiOutlineHome/>, },
+  { name: 'Trending', icon: <BiTrendingUp/>, },
+  { name: 'New', icon: <MdOutlineWatchLater/>, },
   { name: 'Anime', icon: <SiMyanimelist/>, },
   { name: 'Coding', icon: <BiCode />, },
   { name: 'Music', icon: <BsMusicNoteList /> },

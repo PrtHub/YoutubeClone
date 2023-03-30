@@ -26,12 +26,12 @@ const ChannelDetail = () => {
   }, [id]);
 
   return (
-    <Box minHeight="95vh">
+    <Box minHeight="95vh" className='text'>
       <Box>
         <ChannelCard channelDetail={channelDetail} />
       </Box>
       <Box p={2} display="flex">
-      <Box sx={{ mr: { sm: '100px' } }}/>
+      <Box sx={{ mr: { sm: '50px', md: '0px' } }}/>
         <Videos videos={videos} />
       </Box>
     </Box>
