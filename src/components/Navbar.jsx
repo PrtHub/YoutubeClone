@@ -10,11 +10,11 @@ const Navbar = () => {
     >
         <Link to='/' style={{ display:'flex', alignItems:'center'}}>
           <img src={icon} alt="Logo" height={37} />
-          <Typography className='header' sx={{ color: '#fff', fontSize: '23px', marginLeft: '4px', fontWeight: '500'}}>YouTube</Typography>
+          <Typography className='header' sx={{ color: '#fff', fontSize: '23px', marginLeft: '4px',fontFamily: 'fantasy'}}>YouTube</Typography>
         </Link>
         <SearchBar/>
     </Stack>
   )
 }
 
-export default Navbar
+export default Navbar;

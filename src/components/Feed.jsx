@@ -16,7 +16,7 @@ const Feed = () => {
    
 
   return (
-    <Stack sx={{ flexDirection: { sx: 'column', md:'row'}}} className='text' >
+    <Stack sx={{ flexDirection: { sx: 'column', md:'row'}, marginTop:'10px'}} className='text' >
       <Box sx={{ height: {sx: 'auto', md: '100vh'}, borderRight: "1px solid #3d3d3d", px:{sx: 0, md: 2}}}>
        <SideBar
        selectCategory={selectCategory}

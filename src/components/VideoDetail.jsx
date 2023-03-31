@@ -6,6 +6,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { fetchApiData } from "../utils/fetchApiData";
 import Videos from "./Videos";
 
+
 const VideoDetail = () => {
   const { id } = useParams();
   const [videoDetail, setVideoDetail] = useState([]);
@@ -24,7 +25,7 @@ const VideoDetail = () => {
   // const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail;
 
   return (
-    <Box sx={{ minHeight: "92vh" }} className='text'>
+    <Box sx={{ minHeight: "92vh" }} className="text">
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
           <Box
@@ -70,13 +71,12 @@ const VideoDetail = () => {
                   ).toLocaleString()}{" "}
                   likes
                 </Typography>
-                
               </Stack>
             </Stack>
             <hr />
-                <Typography sx={{ fontSize: '12px', p: '13px' }}>
-                {videoDetail?.snippet?.description}
-                </Typography>
+            <Typography sx={{ fontSize: "12px", p: "13px" }}>
+              {videoDetail?.snippet?.description}
+            </Typography>
           </Box>
         </Box>
         <Box

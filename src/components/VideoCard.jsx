@@ -21,8 +21,10 @@ const VideoCard = ({
   <Card
     sx={{
       maxWidth: { xs: "320px", sm: "320px", md: "320px" },
+      borderRadius: 0,
+      boxShadow: 0, 
       "&:hover": {
-       boxShadow: 3
+       boxShadow: 6
       }
       
     }}
